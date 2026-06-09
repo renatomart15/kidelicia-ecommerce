@@ -6,14 +6,14 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="bg-vermelho px-5 py-3 text-white/90 text-sm">
+    <footer className="bg-vermelho px-5 py-3 text-white/90 text-sm grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-10">
       <div>
         <h1 className="text-white font-heading text-2xl md:text-3xl font-extrabold">
           Ki-Delícia
         </h1>
         <p className="text-xs font-mono text-white/40">O LADO DOCE DA VIDA</p>
         <div className="mt-5">
-          <p>
+          <p className="max-w-70">
             Canecas personalizadas feitas com carinho em Limoeiro do Norte - CE.
           </p>
         </div>
@@ -29,7 +29,9 @@ const Footer = () => {
             </div>
           </Link>
         </div>
+      </div>
 
+      <div>
         <h2 className="text-white font-mono font-bold tracking-widest text-sm mt-8">
           NAVEGUE
         </h2>
@@ -39,12 +41,15 @@ const Footer = () => {
           <Link href="#">Como funciona</Link>
           <Link href="#">Pedidos corporativos</Link>
         </div>
+      </div>
+      <div>
         <h2 className="text-white font-mono font-bold tracking-widest text-sm mt-8">
           ATENDIMENTO
         </h2>
         <div className="flex items-center gap-2 mt-3">
           <Clock2 size={18} /> Segunda à Sábago, 8h às 18h
         </div>
+
         <h2 className="text-white font-mono font-bold tracking-widest text-sm mt-8">
           FORMAS DE PAGAMENTO
         </h2>
