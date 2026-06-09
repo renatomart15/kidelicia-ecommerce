@@ -1,5 +1,9 @@
+import Catalog from "@/components/sections/Catalog";
+
 export default function Home() {
   return (
-    <div></div>
+    <div className="">
+      <Catalog />
+    </div>
   );
 }

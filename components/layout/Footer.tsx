@@ -11,7 +11,7 @@ const Footer = () => {
         <h1 className="text-white font-heading text-2xl md:text-3xl font-extrabold">
           Ki-Delícia
         </h1>
-        <p className="text-xs font-mono text-white/40">O LADO DOCE DA VIDA</p>
+        <p className="text-xs font-body text-white/40">O LADO DOCE DA VIDA</p>
         <div className="mt-5">
           <p className="max-w-70">
             Canecas personalizadas feitas com carinho em Limoeiro do Norte - CE.
@@ -47,7 +47,7 @@ const Footer = () => {
           ATENDIMENTO
         </h2>
         <div className="flex items-center gap-2 mt-3">
-          <Clock2 size={18} /> Segunda à Sábago, 8h às 18h
+          <Clock2 size={18} /> Segunda à Sábado, 8h às 18h
         </div>
 
         <h2 className="text-white font-mono font-bold tracking-widest text-sm mt-8">
