@@ -2,7 +2,7 @@ import { Home, Check, ShoppingCart } from "lucide-react";
 
 const ResellerPriceList = () => {
   return (
-    <div className="shadow border border-gray-200 rounded-sm w-full p-4 my-4 flex flex-col justify-between max-w-lg">
+    <div className="shadow border border-gray-200 rounded-sm w-full p-4 my-4 flex flex-col justify-between max-w-lg min-h-100">
       <div>
           <span className="bg-vermelho/10 p-3 inline-block rounded-sm">
             <Home className="text-vermelho" size={20} />

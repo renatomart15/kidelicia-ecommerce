@@ -1,5 +1,5 @@
-import GiftPriceList from "./GiftPriceList";
-import ResellerPriceList from "./ResellerPriceList";
+import GiftPriceList from "../ui/GiftPriceList";
+import ResellerPriceList from "../ui/ResellerPriceList";
 
 const CorporateOrders = () => {
   return (
@@ -10,12 +10,12 @@ const CorporateOrders = () => {
       <h2 className="font-heading text-2xl md:text-3xl lg:text-4xl font-extrabold my-4 text-center">
         Sua marca em cada caneca
       </h2>
-      <p className="text-center text-gray-700 md:text-lg md:my-3">
+      <p className="text-center text-gray-700 md:text-lg md:my-3 max-w-170">
         Atendemos empresas, eventos e revendedores com preços especiais e arte
         personalizada com a identidade da sua marca.
       </p>
 
-      <div className="flex flex-col min-[900px]:flex-row gap-10">
+      <div className="flex flex-col min-[900px]:flex-row min-[900px]:gap-10">
         <GiftPriceList />
         <ResellerPriceList />
       </div>
