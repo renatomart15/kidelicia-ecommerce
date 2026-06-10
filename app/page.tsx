@@ -1,9 +1,11 @@
 import Catalog from "@/components/sections/Catalog";
 import CorporateOrders from "@/components/sections/CorporateOrders";
+import Hero from "@/components/sections/Hero";
 
 export default function Home() {
   return (
-    <div className="">
+    <div>
+      <Hero />
       <Catalog />
       <CorporateOrders />
     </div>
