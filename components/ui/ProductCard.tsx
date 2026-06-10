@@ -1,7 +1,7 @@
 const ProductCard = () => {
   return (
     <div
-      className="rounded-sm shadow overflow-hidden w-60 my-5 snap-start snap-always shrink-0
+      className="rounded-sm shadow overflow-hidden w-60 my-5 snap-start snap-always shrink-0 cursor-pointer
 "
     >
       <div className="flex justify-center items-center h-52 bg-red-100">

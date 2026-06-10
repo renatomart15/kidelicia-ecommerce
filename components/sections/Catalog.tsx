@@ -12,8 +12,7 @@ const Catalog = () => {
           Canecas para cada momento
         </h1>
       </div>
-      <div className="flex px-8 scroll-pl-17 gap-8 overflow-x-scroll scroll-smooth snap-x snap-mandatory [&::-webkit-scrollbar]:hidden">
-        <ProductCard />
+      <div className="flex px-8 scroll-pl-17 gap-8 overflow-x-scroll scroll-smooth snap-x snap-mandatory min-[1130px]:[&::-webkit-scrollbar]:hidden">
         <ProductCard />
         <ProductCard />
         <ProductCard />
