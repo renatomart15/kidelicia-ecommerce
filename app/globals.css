@@ -19,8 +19,3 @@
   --color-carvao: var(--carvao);
   --color-gelo: var(--gelo);
 }
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-}
