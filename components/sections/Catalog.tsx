@@ -7,7 +7,7 @@ const Catalog = () => {
       <div className="px-5 py-3">
         <p className="text-vermelho font-body font-semibold text-sm flex gap-2 items-center">
           <span>NOSSO CATÁLOGO</span>
-          <div className="h-1 bg-vermelho rounded-4xl flex-1 md:hidden"></div>
+          <span className="h-1 bg-vermelho rounded-4xl flex-1 md:hidden"></span>
         </p>
         <h1 className="font-heading text-2xl font-extrabold mt-2">
           Canecas para cada momento
