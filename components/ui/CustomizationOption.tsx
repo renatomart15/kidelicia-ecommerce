@@ -13,7 +13,7 @@ const CustomizationOption = () => {
           if (customizationOption === "catalogo") setCustomizationOption("");
           else setCustomizationOption("catalogo");
         }}
-        className={`${customizationOption === "catalogo" ? "border-vermelho bg-vermelho/10" : "border-gray-300"} font-body font-semibold border-3  rounded-sm  p-4 flex gap-4 items-center shadow cursor-pointer active:scale-99 transition`}
+        className={`${customizationOption === "catalogo" ? "border-vermelho bg-vermelho/10" : "border-gray-300"} font-body font-semibold border-2  rounded-sm  p-4 flex gap-4 items-center shadow cursor-pointer active:scale-99 transition`}
       >
         <div
           className={`${customizationOption === "catalogo" ? "bg-vermelho" : "bg-gray-200"} bg-gray-200 max-w-max p-3 rounded-sm`}
@@ -60,7 +60,7 @@ const CustomizationOption = () => {
             setCustomizationOption("");
           else setCustomizationOption("personalizado");
         }}
-        className={`${customizationOption === "personalizado" ? "border-vermelho bg-vermelho/10" : "border-gray-300"} font-body font-semibold border-3 rounded-sm p-4 flex gap-4 items-center shadow cursor-pointer active:scale-99 transition`}
+        className={`${customizationOption === "personalizado" ? "border-vermelho bg-vermelho/10" : "border-gray-300"} font-body font-semibold border-2 rounded-sm p-4 flex gap-4 items-center shadow cursor-pointer active:scale-99 transition`}
       >
         <div
           className={`${customizationOption === "personalizado" ? "bg-vermelho" : "bg-gray-200"} bg-gray-200 max-w-max p-3 rounded-sm`}

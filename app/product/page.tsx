@@ -1,4 +1,5 @@
 import CustomizationOption from "@/components/ui/CustomizationOption";
+import ProductDetails from "@/components/ui/ProductDetails";
 import ProductQuantity from "@/components/ui/ProductQuantity";
 
 import { MoveHorizontal } from "lucide-react";
@@ -32,6 +33,7 @@ const page = () => {
         COMO VOCÊ QUER PERSONALIZAR?
       </h2>
       <CustomizationOption />
+      <ProductDetails />
     </div>
   );
 };
