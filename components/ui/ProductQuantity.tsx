@@ -8,8 +8,10 @@ const ProductQuantity = () => {
   return (
     <div className="flex max-w-max shadow font-body font-semibold my-2">
       <button
-        onClick={() => setQuantity(quantity - 1)}
-        className="border border-gray-200 px-3 py-2 bg-vermelho/10"
+        onClick={() => {
+          if (quantity > 1) setQuantity(quantity - 1);
+        }}
+        className="border border-gray-200 px-3 py-2 bg-vermelho/10 cursor-pointer"
       >
         <Minus />
       </button>
@@ -18,7 +20,7 @@ const ProductQuantity = () => {
       </div>
       <button
         onClick={() => setQuantity(quantity + 1)}
-        className="border border-gray-200 px-3 py-2 bg-vermelho/10"
+        className="border border-gray-200 px-3 py-2 bg-vermelho/10 cursor-pointer"
       >
         <Plus />
       </button>
