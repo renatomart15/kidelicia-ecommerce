@@ -1,10 +1,15 @@
 import CustomizationOption from "@/components/ui/CustomizationOption";
 import ProductQuantity from "@/components/ui/ProductQuantity";
 
+import { MoveHorizontal } from "lucide-react";
+
 const page = () => {
   return (
     <div className="px-5 py-3 flex flex-col gap-1">
       <div className="bg-vermelho/10 h-70 w-full rounded-sm"></div>
+      <div className="text-gray-300 text-xs flex items-center gap-1 justify-center my-1 font-body font-semibold">
+        <MoveHorizontal size={14} /> Arraste para girar
+      </div>
       <h1 className="font-heading text-xl font-extrabold">
         Caneca Clássica Personalizada
       </h1>

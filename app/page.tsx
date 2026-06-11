@@ -1,4 +1,4 @@
-import Catalog from "@/components/sections/Catalog";
+import Catalog from "@/components/sections/ProductsCatalog";
 import CorporateOrders from "@/components/sections/CorporateOrders";
 import Hero from "@/components/sections/Hero";
 
